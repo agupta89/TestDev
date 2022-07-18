@@ -15,7 +15,7 @@ stages {
                    steps {
 		   echo 'Hello World'
                    script {			    	
-                   if ("${env.GIT_BRANCH}" == "master") {
+                   if ("${env.GIT_BRANCH}" == "main") {
                    env.environment = "dev"
 		    } else if("${env.GIT_BRANCH}" == "stg"){
                    env.environment = "stg"
