@@ -1,4 +1,4 @@
-env.environment ="master"
+env.environment ="main"
 env.browserName= "firefox"
 
 pipeline {
